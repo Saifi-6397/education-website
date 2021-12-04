@@ -1,5 +1,6 @@
 $(function() {
 
+    //home slider
     $('.home-slider .owl-carousel').owlCarousel({
         dots: false,
         autoplay: true,
@@ -46,6 +47,8 @@ $(function() {
 
     })
 
+    //counter up
+
     $('.count').counterUp({
         delay: 10,
         time: 2000
@@ -59,13 +62,16 @@ $(function() {
     //     }
     // });
 
+    //aos animation
 
-    // AOS.init({
-    //     duration: 1000,
-    //     delay: 400,
-    // });
+    AOS.init({
+        duration: 1000,
+        delay: 400,
+    });
 
 
+
+    //scroll up to top
     $.scrollUp({
         scrollImg: true,
         topDistance: '300',

@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
     <!--aos css cdn link-->
-    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--font awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <!--font icons cdn-->
@@ -30,7 +30,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!--custom css-->
     <link rel="stylesheet" href="css/style.css">
-    <title>bootstrap template</title>
+    <title>saifi education university</title>
 </head>
 
 <body>
@@ -44,13 +44,13 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">MEETING</a>
+                        <a class="nav-link" href="#meeting">MEETING</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">APPLY NOW</a>
+                        <a class="nav-link" href="#apply">APPLY NOW</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">PAGES</a>
@@ -59,10 +59,10 @@
                             <li><a class="dropdown-item" href="#">meeting detilas</a></li>
                         </ul>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">COURSES</a>
+                            <a class="nav-link" href="#courses">COURSES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">CONTACT US</a>
+                            <a class="nav-link" href="#contact">CONTACT US</a>
                         </li>
                     </li>
                 </ul>
@@ -71,82 +71,68 @@
     </nav>
     <!--end navigation-->
 
-    <!--start home video section-->
-    <div class="home-video">
+    <!--start home section-->
+    <div class="container-fluid home-bg" id="home">
         <div class="row">
             <div class="col-12">
-                <div class="bg-video">
-                    <video autoplay muted loop>
-                    <source src="images/course-video.mp4" type="video/mp4"></video>
-                    </video>
+                <div class="banner-text">
+                    <h4>HELLO STUDENTS</h4>
+                    <h2>WELCOME TO EDUCATION</h2>
+                    <p>This is an edu meeting HTML CSS template provided by TemplateMo website. This is a Bootstrap v5.1.3 layout. The video background is taken from Pexels website, a group of young people by Pressmaster</p>
+                    <a href="#" class="brown-btn">join us now!</a>
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="banner-text">
-                        <h4>HELLO STUDENTS</h4>
-                        <h2>WELCOME TO EDUCATION</h2>
-                        <p>This is an edu meeting HTML CSS template provided by TemplateMo website. This is a Bootstrap v5.1.3 layout. The video background is taken from Pexels website, a group of young people by Pressmaster</p>
-                        <a href="#" class="brown-btn">join us now!</a>
+    </div>
+    <!--end home section-->
+
+    <!--start meeting  background image fix section-->
+    <div class="meeting">
+        <!--start upper carausel-->
+        <div class="container home-slider">
+            <div class="owl-carousel owl-theme">
+                <div class="item item-1">
+                    <img src="images/service-icon-01.png" alt="" class="img-fliud">
+                    <div class="content">
+                        <h4>best students</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo atque illo eos ipsum omnis, culpa deleniti.</p>
+                    </div>
+                </div>
+                <div class="item item-2">
+                    <img src="images/service-icon-02.png" alt="">
+                    <div class="content">
+                        <h4>best education</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo atque illo eos ipsum omnis, culpa deleniti.</p>
+                    </div>
+                </div>
+                <div class="item item-3">
+                    <img src="images/service-icon-03.png" alt="">
+                    <div class="content">
+                        <h4>best teachers</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo atque illo eos ipsum omnis, culpa deleniti.</p>
+                    </div>
+                </div>
+                <div class="item item-4">
+                    <img src="images/service-icon-01.png" alt="">
+                    <div class="content">
+                        <h4>best networking</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo atque illo eos ipsum omnis, culpa deleniti.</p>
+                    </div>
+                </div>
+
+                <div class="item item-4">
+                    <img src="images/service-icon-01.png" alt="">
+                    <div class="content">
+                        <h4>online meeting</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo atque illo eos ipsum omnis, culpa deleniti,</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        <!--end upper carausel-->
 
-    <!--end home video section-->
-
-
-    <!--start upper carausel-->
-    <div class="container home-slider">
-        <div class="owl-carousel owl-theme">
-            <div class="item item-1">
-                <img src="images/service-icon-01.png" alt="" class="img-fliud">
-                <div class="content">
-                    <h4>best students</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo atque illo eos ipsum omnis, culpa deleniti.</p>
-                </div>
-            </div>
-            <div class="item item-2">
-                <img src="images/service-icon-02.png" alt="">
-                <div class="content">
-                    <h4>best education</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo atque illo eos ipsum omnis, culpa deleniti.</p>
-                </div>
-            </div>
-            <div class="item item-3">
-                <img src="images/service-icon-03.png" alt="">
-                <div class="content">
-                    <h4>best teachers</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo atque illo eos ipsum omnis, culpa deleniti.</p>
-                </div>
-            </div>
-            <div class="item item-4">
-                <img src="images/service-icon-01.png" alt="">
-                <div class="content">
-                    <h4>best networking</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo atque illo eos ipsum omnis, culpa deleniti.</p>
-                </div>
-            </div>
-
-            <div class="item item-4">
-                <img src="images/service-icon-01.png" alt="">
-                <div class="content">
-                    <h4>online meeting</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo atque illo eos ipsum omnis, culpa deleniti,</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--end upper carausel-->
-
-
-    <!--start meeting  background image fix section-->
-    <div class="meeting">
         <!--start meeting section-->
-        <div class="container">
+        <div class="container" id="meeting">
             <div class="row text-center">
                 <div class="col-12">
                     <h3>UPCOMMING MEETING</h3>
@@ -154,7 +140,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 box-1" data-aos="zoom-in">
+                <div class="col-lg-4 box-1 text-center" data-aos="zoom-in">
                     <div class="content">
                         <h4>Meeting Catgories</h4>
                         <hr>
@@ -164,7 +150,7 @@
                         <p>ACras et metus vestibulum</p>
                         <p>Sed tempus enim leo</p>
                         <hr>
-                        <a href="#" class="btn-1 btn-2">all upcomming meetings</a>
+                        <a href="#" class="brown-btn">all upcomming meetings</a>
 
                     </div>
                 </div>
@@ -246,7 +232,7 @@
 
 
         <!--start apply section-->
-        <div class="apply">
+        <div class="apply" id="apply">
             <div class="container">
                 <div class="row justify-content-between">
                     <div class="col-lg-6">
@@ -336,7 +322,7 @@
 
 
         <!--start course section-->
-        <div class="container course">
+        <div class="container course" id="courses">
             <h4>OUR POPULAR COURSES</h4>
             <hr>
             <div class="owl-carousel owl-theme text-center">
@@ -513,11 +499,11 @@
 
 
         <!--start contact section-->
-        <div class="container contact">
+        <div class="container contact" id="contact">
             <div class="row">
                 <div class="col-lg-8" data-aos="flip-up">
                     <form action="">
-                        <h3>LET'S GET IN TOUCH</h3>
+                        <h1>LET'S GET IN TOUCH</h1>
                         <hr>
                         <div class="common d-flex justify-content-between">
                             <div><input type="text" placeholder="your name...*"></div>
@@ -581,7 +567,7 @@
 
 
     <!--aos js cdn link-->
-    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
