@@ -404,6 +404,11 @@
         margin-top: 2rem;
     }
     
+    .university .box-1,
+    .university .box-3 {
+        margin-top: -1rem;
+    }
+    
     .university .image {
         padding: 2rem;
         top: 2rem;
@@ -517,6 +522,9 @@
         .university .image {
             padding: 0;
             top: 2rem;
+        }
+        .university .play-icon {
+            top: 40%;
         }
         .common {
             flex-direction: column;
