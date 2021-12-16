@@ -7,16 +7,19 @@
         font-family: 'Roboto', sans-serif;
     }
     
-    html,
-    body {
+    html {
         font-size: 15px;
+    }
+    
+    body,
+    html {
         width: 100%;
         overflow-x: hidden;
         scroll-behavior: smooth;
     }
     
     #scrollUp {
-        bottom: 30px;
+        bottom: 20px;
         right: 30px;
         background-image: url(../images/top.png);
         height: 38px;
@@ -441,7 +444,6 @@
         background-color: #fff;
         padding: 2rem;
         border-radius: 2rem;
-        text-transform: uppercase;
         color: black;
         margin: 1rem;
     }
@@ -466,7 +468,6 @@
         margin: 2rem 0;
         height: 45px;
         padding-left: 1rem;
-        text-transform: uppercase;
     }
     
     .contact textarea {
@@ -474,6 +475,10 @@
         height: 150px;
         padding: 1rem 1.5rem;
         border-radius: 1rem;
+    }
+    
+    .contact button {
+        border: none;
     }
     
     .contact .address {
@@ -486,6 +491,13 @@
     
     .contact .address .text {
         margin: 2rem 0;
+    }
+    
+    .error {
+        color: #a12c2f;
+        position: relative;
+        top: -1.5rem;
+        left: 0.5rem;
     }
     /*end contact section*/
     

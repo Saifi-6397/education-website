@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -502,16 +502,22 @@
         <div class="container contact" id="contact">
             <div class="row">
                 <div class="col-lg-8" data-aos="flip-up">
-                    <form action="">
+                    <form action="index.php" onsubmit="return Validation()">
                         <h1>LET'S GET IN TOUCH</h1>
                         <hr>
                         <div class="common d-flex justify-content-between">
-                            <div><input type="text" placeholder="your name...*"></div>
-                            <div><input type="email" placeholder="your email..*"></div>
-                            <div><input type="text" placeholder="subject..*"></div>
+                            <div><input type="text" id="user_name" placeholder="YOUR NAME...*">
+                                <p class="error" id="nameError"></p>
+                            </div>
+                            <div><input type="email" id="user_email" placeholder="YOUR EMAIL..*">
+                                <p class="error" id="emailError"></p>
+                            </div>
+                            <div><input type="text" id="user_sub" placeholder="SUBJECT..*">
+                                <p class="error" id="subError"></p>
+                            </div>
                         </div>
-                        <textarea name="" id="" cols="30" rows="10" placeholder="your message..."></textarea><br>
-                        <a href="#" class="brown-btn">send message now</a>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="YOUR MESSAGE..."></textarea><br>
+                        <button class="brown-btn">send message now</button>
                     </form>
                 </div>
                 <div class="col-lg-4" data-aos="fade-left">
@@ -548,7 +554,7 @@
         <!--start footer-->
         <div class="container fluid">
             <div class="row">
-                <div class="col-12" data-aos="fade-up">
+                <div class="col-12">
                     <div class="footer text-center pt-5">
                         <p>COPYRIGHT &copy; 2022 EDU MEETING CO., LTD. ALL RIGHTS RESERVED.<br> DESIGN BY: MR. KHALEEL AHMAD</p>
                     </div>
